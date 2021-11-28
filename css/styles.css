@@ -89,12 +89,12 @@ img {
   text-decoration: none;
   color: var(--mainColor);
   position: relative;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--blueColor);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts {
   font-weight: 500;
@@ -114,22 +114,22 @@ img {
   padding: 32px 0px;
   text-decoration: none;
   color: var(--mainSecondColor);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-icon:hover,
 .contact-icon:focus {
   color: var(--blueColor);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-icon:hover .icon,
 .contact-icon:focus .icon {
   fill: var(--blueColor);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon {
   fill: var(--mainSecondColor);
   margin-right: 10px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.active::after {
   content: '';
@@ -184,12 +184,12 @@ img {
   padding: 10px 32px;
   border: none;
   font-family: inherit;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero button:hover,
 .hero button:focus {
   background-color: var(--blueColor);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ----------------------------------------- Section 2 ----------------------------------------- */
 .features-list {
@@ -333,6 +333,12 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--white);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-social-icon {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-social-item:not(:last-child) {
   margin-right: 10px;
@@ -340,13 +346,9 @@ img {
 .portfolio-social-link:hover,
 .portfolio-social-link:focus {
   background-color: var(--blueColor);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-social-link:hover .portfolio-social-icon,
 .portfolio-social-link:focus .portfolio-social-icon {
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--white);
 }
 /* ----------------------------------------- Section 5 ----------------------------------------- */
